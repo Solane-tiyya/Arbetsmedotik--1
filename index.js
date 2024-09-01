@@ -1,46 +1,23 @@
-//console.log("Hello Worlid");
-//const currentYear =2021;
-//const birthYear = 1986;
-//const age = currentYear - birthYear;
-//const is overforty =age > 40;
+const name = "Solane"
+const currentYear = 2024
+const birthYear = 1995
+const age = currentYear - birthYear
+console.log("Hello Worlid")
+//console.log(age)
+//console.log(name)
+const message = name + " is " + age + " old "
+console.log(message)
+const favoritDrink = "Coffe"
+const message1 = `Your favorite drink is ${favoritDrink}`
+console.log(message1)
 
-//console.log(age);
-//console.log;
-//const favoriteDrink = "Coffe";
+const user = {
+    age1: 29,
+    birthYear: 1995,
+    name1: {
+        firstName: "Solane",
+        lastName: "Hebo"
+    }
+}
 
-//const myArray = ["Cat", "Dog"];
-//console.log ("My Arry, myArry");
-//cont a =2;
-//const b = "2";
-//console.log("First coomp equality", a=b);
-//console.log("Seconde comp equality with type b");
-
-
-
-//const myObject ={
-   // age: 35,
-   // name:{
-       // first: "Solane",
-        //last: "Hebo",
-   // }
-
-//};
-//console.log("User age", user.age);
-//console.log("user first name", user.name.first);
-
-brand = "Audi"
-modelYear = 2000
-model = "A3"
-currentMileage = 8000
-bigServiceMileage = 6000
-console.log("brand", brand);
-console.log("modelYear", modelYear);
-
-//console.message = `Du äger en som har körts i {currentMileage} km");
-console.log("currentMileage", currentMileage);
-console.log("bigServiceMileage", bigServiceMileage);
-
-
-
-
-
+console.log(age1.name1.firstName)
